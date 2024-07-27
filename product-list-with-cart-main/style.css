@@ -23,23 +23,42 @@ html{
     border: 2px solid black;
 }
 .hide{
-    /* display: none; */
+    display: none;
 }
 .thebtcs{
     position: absolute;
     width: 200px;
     top: 260px;
     margin-left: 35px;
-    height: 1px;
 }
-.thebtcs button{
-    height: 40px;
-}
-.class1 button{
+.btn1{
     width: 150px;
     border: 2px solid black;
     border-radius: 20px;
 }
 button img{
     margin-right: 10px;
+    margin-top: 2px;
+}
+.class1 h1{
+    /* position: absolute; */
+    /* background: red; */
+    /* width: 150px; */
+}
+.name-tag{
+    margin-top: 35px;
+}
+.name-tag h1{
+    font-weight: 400
+}
+.name-tag h2{
+    font-weight: 800;
+}
+.name-tag h3{
+    color: green;
+}
+
+.tag{
+    margin: 1px;
+    font-size: 15px;
 }

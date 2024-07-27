@@ -12,6 +12,27 @@ body{
 html{
     scroll-behavior: smooth;
 }
-.main-body{
-    background: red;
+.container{
+    margin-left: 200px;
+    margin-top: 4%;
+}
+img{
+    border-radius: 20px;
+}
+img:hover{
+    border: 2px solid black;
+}
+.hide{
+    display: none;
+}
+.thebtcs{
+    position: absolute;
+    width: 200px;
+    top: 260px;
+    margin-left: 50px;
+}
+.class1 button{
+    width: 150px;
+    border: 2px solid black;
+    border-radius: 20px;
 }

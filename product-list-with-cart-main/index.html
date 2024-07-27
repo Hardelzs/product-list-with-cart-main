@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css" />
     <link
       rel="icon"
       type="image/png"
@@ -12,8 +12,6 @@
     />
 
     <title>Frontend Mentor | Product list with cart</title>
-
-
   </head>
   <body>
     <!-- Desserts Waffle with Berries Waffle 6.50 Add to Cart Vanilla Bean Crème
@@ -23,13 +21,32 @@
     Cake 4.50 Add to Cart Salted Caramel Brownie Brownie 4.50 Add to Cart
     Vanilla Panna Cotta Panna Cotta 6.50 Add to Cart Your Cart (<!-- Quantity) -->
     <!-- Your added items will appear here -->
-     <div class="main-body">
+    <div class="main-body">
+      <div class="header">
+        <p>Dess<span>erts</span></p>
+      </div>
       <div class="container">
         <div class="class1">
-          <img src="assets/images/image-baklava-desktop.jpg" alt="">
+          <img
+            src="assets/images/image-baklava-desktop.jpg"
+            alt=""
+            width="220px"
+            height="200px"
+          />
+          <p class="thebtcs">
+            <button>
+              <img src="assets/images/icon-add-to-cart.svg" alt="" />Add to Cart
+            </button>
+            <button class="hide">+</button> <button class="hide">-</button>
+          </p>
+          <div class="name-tage">
+            <p>waffle</p>
+            <span>with Berries Waffle</span>
+            <p>$6.50</p>
+          </div>
         </div>
       </div>
-     </div>
+    </div>
 
     <div class="attribution">
       Challenge by

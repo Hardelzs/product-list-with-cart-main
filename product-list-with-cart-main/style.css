@@ -11,10 +11,13 @@ body{
 }
 html{
     scroll-behavior: smooth;
-}
+} 
 .container{
     margin-left: 200px;
-    margin-top: 4%;
+    margin-top: 1%;
+    display: grid;
+    grid-template-columns: repeat(3, 18%); 
+    grid-gap: 10px;
 }
 .image{
     border-radius: 20px;
@@ -26,27 +29,30 @@ html{
     display: none;
 }
 .thebtcs{
-    position: absolute;
+    /* position: absolute; */
     width: 200px;
-    top: 260px;
+    margin-top: -30px;
     margin-left: 35px;
+    align-items: center;
+    cursor: pointer;
 }
 .btn1{
     width: 150px;
+    align-items: center;
     border: 2px solid black;
     border-radius: 20px;
+    cursor: pointer;
 }
-button img{
-    margin-right: 10px;
-    margin-top: 2px;
+.thebtcs img{
+    position: absolute;
+    margin-left: -25px;
+    margin-top: 4px;
 }
+
 .class1 h1{
     /* position: absolute; */
     /* background: red; */
     /* width: 150px; */
-}
-.name-tag{
-    margin-top: 35px;
 }
 .name-tag h1{
     font-weight: 400
@@ -60,5 +66,5 @@ button img{
 
 .tag{
     margin: 1px;
-    font-size: 15px;
+    font-size: 12px;
 }

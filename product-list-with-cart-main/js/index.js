@@ -1,10 +1,13 @@
-// Swal.fire("Welcome to Hardelz store!");
+Swal.fire("Welcome to Hardelz store!");
 
 const buttons = document.querySelectorAll('#btn1');
+const countElement = document.getElementById('count');
+let count = 0;
 
 buttons.forEach(button => {
   button.addEventListener('click', () => {
-    alert("the bullocks");
+    count++;
+    countElement.textContent = count;
   });
 });
 

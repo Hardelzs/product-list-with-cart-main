@@ -65,3 +65,60 @@ html{
     margin: 1px;
     font-size: 12px;
 }
+
+.left-side{
+    position: absolute;
+    margin-left: 65%;
+    top: 20px;
+    width: 300px;
+    height: 60%;
+    background: white;
+    box-shadow: 5px 6px 10px rgb(163, 159, 159);
+    padding: 10px;
+}
+.left-side h1{
+    font-size: 20px;
+    margin-left: 10px;
+}
+.left-side h2{
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(185, 176, 176);
+    width: 90%;
+    height: 9%;
+    margin-left: 15px;
+}
+.confirm{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    height: 9%;
+    background: rgb(30, 29, 29);
+    border-radius: 30px;
+    margin-left: 15px;
+    font-size: 15px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.each-cart{
+    margin-left: 15px;
+}
+.each-cart h4{
+    position: absolute;
+    top: 70px;
+}
+.each-cart span{
+    position: absolute;
+    margin-left: 130px;
+    top: -14px;
+}
+.each-cart img{
+    border: 2px solid rgb(176, 172, 172);
+    border-radius: 50%;
+    padding: 2px;
+}

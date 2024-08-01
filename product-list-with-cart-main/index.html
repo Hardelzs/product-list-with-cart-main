@@ -133,15 +133,63 @@
     <!-- this is will appear if a product is picked by the user -->
     <div class="left-side" id="boykill">
       <h1>Your Cart (<span id="count">0</span>) </h1>
-      <div class="each-cart">
+      <div class="each-cart" id="cart1">
         <p>Pistachio Baklava</p>
-        <h4>1x @$4.00 $4.00 <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+        <h4><b id="figures">1</b>x @$4.00 $<k id="increase">4.00</k> <span id="img" ><img src="assets/images/icon-remove-item.svg" alt="" ></span></h4>
+        <hr>
+      </div>
 
+      <div class="each-cart" id="cart2">
+        <p>Salted Caramel Brownie</p>
+        <h4><b id="figures2">1</b>x @$4.50 $<k id="increase2">4.50</k> <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+        <hr>
+      </div>
+
+      <div class="each-cart" id="cart3">
+        <p>Red Velvet Cake</p>
+        <h4><b id="figures3">1</b>x @$6.50 %<k id="increase3">6.50</k><span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+        <hr>
+      </div>
+
+      <div class="each-cart" id="cart4">
+        <p>Vanilla Brûlée Crème</p>
+        <h4><b id="figures4">1</b>x @$7.00 $<k id="increase4">7.00</k> <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+        <hr>
+      </div>
+
+      <div class="each-cart" id="cart5">
+        <p>Macaron Mix of Five</p>
+        <h4><b id="figures5">1</b>x @$8.00 $<k id="increase5">8.00</k> <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+        <hr>
+      </div>
+
+      <div class="each-cart" id="cart6">
+        <p>Lemon meringue pie</p>
+        <h4><b id="figures6">1</b>x @$8.00 $<k id="increase6">8.00</k> <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+        <hr>
+      </div>
+
+      <div class="each-cart" id="cart7">
+        <p>Vanilla Panna Cotta</p>
+        <h4><b id="figures7">1</b>x @$6.50 $<k id="increase7">6.50</k> <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+        <hr>
+      </div>
+          
+      <div class="each-cart" id="cart8">
+        <p>Classic Tiramisu</p>
+        <h4><b id="figures8">1</b>x @$5.50 $<k id="increase8">5.50</k> <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+        <hr>
+      </div>
+
+      <div class="each-cart" id="cart9">
+        <p>with Berries Waffle</p>
+        <h4><b id="figures9">1</b>x @$6.50 $<k id="increase9">6.50</k> <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+        <hr>
       </div>
 
 
       <h2><img src="assets/images/icon-carbon-neutral.svg" alt=""> This is a carbon-neutral delivery</h2>
-      <button class="confirm" id="confirm">Confirm Order</button>
+      <button id="confirm">Confirm Order</button>
 
     </div>
 
@@ -154,7 +202,7 @@
     </div>
 
     <!-- this is a div for the pop up Confirmation -->
-    <div class="order-confirmation">
+    <div class="order-confirmation" id="order-confirmation">
       <div class="header-confirm">
         <img src="assets/images/icon-order-confirmed.svg" alt="">
         <h1>Order Confirmation</h1>
@@ -162,7 +210,18 @@
 
 
         <div class="menu-bought">
-          green
+
+          <div class="measure" id="cart1">
+            <p>Pistachio Baklava</p>
+            <h4>1x @$4.00 $4.00 <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+            <hr>
+          </div>
+    
+          <div class="measure" id="cart2">
+            <p>Salted Caramel Brownie</p>
+            <h4>1x @$4.50 $4.50 <span><img src="assets/images/icon-remove-item.svg" alt=""></span></h4>
+            <hr>
+          </div>
         </div>
 
         <button id="return">Start New Order</button>
@@ -176,7 +235,7 @@
   <div class="attribution">
     Challenge by
     <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="hardelz.netlify.app">Hardelz</a>.
   </div>
 
   <script src="js/index.js"></script>
